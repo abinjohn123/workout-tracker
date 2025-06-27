@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 
-const LOCAL_IP = '192.168.1.7';
+const LOCAL_IP = '192.168.1.6';
 
 // https://vitejs.dev/config/
 export default defineConfig({
