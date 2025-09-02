@@ -38,8 +38,8 @@ const router = createBrowserRouter([
     ),
     children: [
       {
-        path: ROUTES.HOME,
         element: <Home />,
+        index: true,
       },
       {
         path: ROUTES.PROFILE,

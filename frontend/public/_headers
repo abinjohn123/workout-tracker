@@ -1,0 +1,12 @@
+# public/_headers
+/assets/*.js
+  Content-Type: application/javascript
+
+/*.js  
+  Content-Type: application/javascript
+
+/assets/*.mjs
+  Content-Type: application/javascript
+
+/*.mjs
+  Content-Type: application/javascript

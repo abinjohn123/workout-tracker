@@ -1,11 +1,11 @@
 export const ROUTES = {
-  AUTH: '/auth',
   HOME: '/',
-  WORKOUTS: '/workouts',
-  EXERCISES: '/exercises',
-  PROFILE: '/profile',
+  AUTH: 'auth',
+  WORKOUTS: 'workouts',
+  EXERCISES: 'exercises',
+  PROFILE: 'profile',
 
   get NEW_WORKOUT() {
     return `${this.WORKOUTS}/new`;
   },
-};
+} as const;

@@ -1,10 +1,8 @@
 import useSWR from 'swr';
 import { CustomError } from '@/types';
 
-import { LOCAL_IP } from '../../../local.config';
 import { supabaseClient } from '@/auth';
-
-const BASE_URL = `http://${LOCAL_IP}:8008`;
+import { BASE_URL } from './config';
 
 export const customFetch = async <T>(...args: Parameters<typeof fetch>) => {
   const [route, rest] = args;
